@@ -1,0 +1,63 @@
+{
+  "name": "vue-vite-app",
+  "bucket": "vue-vite-app",
+  "preset": "vue",
+  "env": "production",
+  "prefix": "20261104184122",
+  "rotate-prefix": true,
+  "not-first-run": true,
+  "function": [],
+  "application": {
+    "id": 1793815922,
+    "name": "vue-vite-app"
+  },
+  "domain": {
+    "id": 0,
+    "name": "__DEFAULT__",
+    "domain_name": "",
+    "url": ""
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": null,
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 1515203,
+        "name": "Deliver Static Assets and Set Cache Policy",
+        "phase": "request"
+      },
+      {
+        "id": 1515204,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": [
+    {
+      "id": 391598,
+      "name": "vue-vite-app"
+    }
+  ],
+  "workloads": {
+    "id": 1793813128,
+    "name": "vue-vite-app",
+    "domains": [],
+    "url": "https://zgiszk31jxo.map.azionedge.net",
+    "deployment_id": [
+      {
+        "id": 358605,
+        "name": "vue-vite-app"
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "id": 228344,
+      "name": "vue-vite-app"
+    }
+  ]
+}
